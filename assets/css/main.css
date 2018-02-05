@@ -2778,14 +2778,6 @@
 				padding: 3rem 0 3rem 0;
 			}
 
-			/* .node {
-				height: 104px;
-			} */
-
-			/* .react {
-				height: 104px;
-			} */
-
 				ul.faces li:first-child {
 					margin-left: 0;
 				}
@@ -4042,6 +4034,10 @@
 				content: '\f0c9';
 				margin: 0 0 0 0.625rem;
 				float: right;
+			}
+
+			header.contact {
+				color: white;
 			}
 
 		@media screen and (max-width: 980px) {
