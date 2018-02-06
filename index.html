@@ -33,8 +33,7 @@
 										<ul>
 											<li><a href="#option1" class="more scrolly">Addee Hunt Hair</a></li>
 											<li><a href="#option2" class="more scrolly">Oatmeal Gamification</a></li>
-											<li><a href="#option3" class="more scrolly">Option Four</a></li>
-											<li>
+											<!-- <li>
 												<a href="#">Submenu</a>
 												<ul>
 													<li><a href="#">Option One</a></li>
@@ -42,12 +41,12 @@
 													<li><a href="#">Option Three</a></li>
 													<li><a href="#">Option Four</a></li>
 												</ul>
-											</li>
+											</li> -->
 										</ul>
 									</li>
-									<li><a href="aboutMe.html">About Me</a></li>
+									<li><a href="#aboutMe" class="more scrolly">About Me</a></li>
 									<li><a href="#contactInfo" class="more scrolly">Contact Info</a></li>
-									<!-- <li><a href="elements.html">Elements</a></li> -->
+									<li><a href="elements.html">Elements</a></li>
 								</ul>
 							</nav>
 
@@ -60,66 +59,17 @@
 							<p class='solid'>Web Developer</p>
 							<a href="aboutMe.html">About Me</a>
 						</div>
-						<a href="#first" class="more scrolly">Learn More About Me</a>
 					</section>
 
 					<!-- Section -->
-					<section class="main skills" id='first'>
+					<section class="main accent2" id='aboutMe'>
 							<header>
-								<h2>Skills</h2>
+								<h2>About Me</h2>
+								<p>Born in Utah and moved around the country, I have learned to adjust to situations quickly. I love to be active and play sports. I have a passion for code because it gives me the ability to create, and turn ideas into interactive objects. I can't wait to contribute to  your team and continue to learn and progress!</p>
 							</header>
-							<div class="inner">
-								<ul class="faces">
-									<li>
-										<span class="image"><img class="react" src="images/react.png" alt="" /></span>
-										<h3>React</h3>
-									</li>
-									<li>
-										<span class="image"><img class="node" src="images/node.png" alt="" /></span>
-										<h3>Node.js</h3>
-										</li>
-									<li>
-										<span class="image"><img src="images/javascript.jpg" alt="" /></span>
-										<h3>JavaScript</h3>
-									</li>
-									<li>
-										<span class="image"><img src="images/express.png" alt="" /></span>
-										<h3>Express.js</h3>
-									</li>
-									<li>
-										<span class="image"><img src="images/auth0.png" alt="" /></span>
-										<h3>Auth0</h3>
-									</li>
-								</ul>
-
-								<ul class="faces">
-									<li>
-										<span class="image"><img src="images/html.png" alt="" /></span>
-										<h3>HTML5</h3>
-									</li>
-									<li>
-										<span class="image"><img src="images/css.png" alt="" /></span>
-										<h3>CSS3</h3>
-									</li>
-									<li>
-										<span class="image"><img src="images/angular.jpg" alt="" /></span>
-										<h3>Angular.js</h3>
-									</li>
-									
-									<li>
-										<span class="image"><img src="images/postgresql.png" alt="" /></span>
-										<h3>PostgreSQL</h3>
-									</li>
-									<li>
-										<span class="image"><img src="images/jest.png" alt="" /></span>
-										<h3>Jest</h3>
-									</li>
-								</ul>
-								<div class="skills">
-									<h3>And More!</h3>
-								</div>
-							</div>
 						</section>
+
+					
 
 				<!-- Section -->
 					<section class="main alt" id='Portfolio'>
@@ -134,20 +84,37 @@
 										<span class="category">Personally Developed Web App</span>
 										<h3>Addee Hunt Hair</h3>
 									</header>
-									<p>Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec sed lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam magna tempus.</p>
+									<p>Freelanced to design and program a site for local business</p>
+									<ul>
+										<li>Used React to create components viewed through different browser routes, made responsive with CSS</li>
+										<li>Integrated axios calls to backend server to load and update data from PostgresSQL database</li>
+										<li>Integrated Redux to hold and manage state</li>
+										<li>Was runner-up for "Best Business Solution" for Personal Projects in my DevMountain cohort</li>
+									</ul>
+									
 									<ul class="actions">
 										<li><a href="#" class="button next">Learn More</a></li>
 									</ul>
 								</div>
-								<div class="image" data-position="center"><img src="images/pic05.jpg" alt="" /></div>
+								<div class="image" data-position="center">
+									<img src="images/pic05.jpg" alt="" />
+									
+								</div>
 							</article>
+
 							<article class="post style2 alt" id='option2'>
 								<div class="content">
 									<header>
 										<span class="category">Group Developed Web App</span>
 										<h3>Oatmeal Gamification</h3>
 									</header>
-									<p>Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec sed lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam magna tempus.</p>
+									<p>Created a gamification platform to integrate with CRM technology in order to create competition while having fun</p>
+									<ul>
+										<li>Used React to create interactive components to render information coming from PostgreSQL database</li>
+										<li>Responsive because of CSS media Queries and Semantic UI elements for style and added functionality</li>
+										<li>Data heavy project that helped with understanding parsing and accessing data types</li>
+										<li>Integrated sockets to allow live-updating feature for data pushed from simple dummy crm</li>
+									</ul>
 									<ul class="actions">
 										<li><a href="#" class="button next">Learn More</a></li>
 									</ul>
@@ -160,51 +127,60 @@
 				
 
 				<!-- Section -->
-					<section class="main accent2">
+				<section class="main skills" id='first'>
 						<header>
-							<h2>Egestas phasellus</h2>
-							<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam facilisis ante sed etiam magna interdum congue. Sed consequat amet dolor magna consequat. Lorem ipsum dolor amet nullam sed etiam veroeros.</p>
+							<h2>Skills</h2>
 						</header>
 						<div class="inner">
-							<article class="post alt">
-								<div class="content">
-									<header>
-										<span class="category">Lorem ipsum</span>
-										<h3>Finibus et magna</h3>
-									</header>
-									<p>Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec sed lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam magna tempus. Lorem ipsum sit tempus amet feugiat.</p>
-									<ul class="actions">
-										<li><a href="#" class="button next">Learn More</a></li>
-									</ul>
-								</div>
-								<div class="image" data-position="center"><img src="images/pic07.jpg" alt="" /></div>
-							</article>
-							<article class="post">
-								<div class="content">
-									<header>
-										<span class="category">Sed etiam</span>
-										<h3>Nam adipiscing</h3>
-									</header>
-									<p>Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec sed lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam magna tempus. Lorem ipsum sit tempus amet feugiat.</p>
-									<ul class="actions">
-										<li><a href="#" class="button next">Learn More</a></li>
-									</ul>
-								</div>
-								<div class="image" data-position="center"><img src="images/pic08.jpg" alt="" /></div>
-							</article>
-							<article class="post alt">
-								<div class="content">
-									<header>
-										<span class="category">Sapien erat</span>
-										<h3>Amet sed nullam</h3>
-									</header>
-									<p>Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec sed lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam magna tempus. Lorem ipsum sit tempus amet feugiat.</p>
-									<ul class="actions">
-										<li><a href="#" class="button next">Learn More</a></li>
-									</ul>
-								</div>
-								<div class="image" data-position="center"><img src="images/pic09.jpg" alt="" /></div>
-							</article>
+							<ul class="faces">
+								<li>
+									<span class="image"><img class="react" src="images/react.png" alt="" /></span>
+									<h3>React</h3>
+								</li>
+								<li>
+									<span class="image"><img class="node" src="images/node.png" alt="" /></span>
+									<h3>Node.js</h3>
+									</li>
+								<li>
+									<span class="image"><img src="images/javascript.jpg" alt="" /></span>
+									<h3>JavaScript</h3>
+								</li>
+								<li>
+									<span class="image"><img src="images/express.png" alt="" /></span>
+									<h3>Express.js</h3>
+								</li>
+								<li>
+									<span class="image"><img src="images/auth0.png" alt="" /></span>
+									<h3>Auth0</h3>
+								</li>
+							</ul>
+
+							<ul class="faces">
+								<li>
+									<span class="image"><img src="images/html.png" alt="" /></span>
+									<h3>HTML5</h3>
+								</li>
+								<li>
+									<span class="image"><img src="images/css.png" alt="" /></span>
+									<h3>CSS3</h3>
+								</li>
+								<li>
+									<span class="image"><img src="images/angular.jpg" alt="" /></span>
+									<h3>Angular.js</h3>
+								</li>
+								
+								<li>
+									<span class="image"><img src="images/postgresql.png" alt="" /></span>
+									<h3>PostgreSQL</h3>
+								</li>
+								<li>
+									<span class="image"><img src="images/jest.png" alt="" /></span>
+									<h3>Jest</h3>
+								</li>
+							</ul>
+							<div class="skills">
+								<h3>And More!</h3>
+							</div>
 						</div>
 					</section>
 
@@ -228,6 +204,8 @@
 								</div>
 								<ul class="actions">
 									<li><button class="button next" type="submit">Send Message</button></li>
+									<li></li>
+									<li></li>
 								</ul>
 							</form>
 						</div>

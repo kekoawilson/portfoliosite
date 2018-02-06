@@ -3229,6 +3229,7 @@
 
 		#wrapper > .main.special {
 			text-align: center;
+			font-weight: bold;
 		}
 
 		#wrapper > .main.accent1 {
@@ -3646,11 +3647,15 @@
 			}
 
 		#wrapper > .main.alt {
-			background-image: url("../../images/alejandro-escamilla-6.jpg");
+			background-image: url("../../images/alejandro-escamilla-6-edited.png");
 			background-size: cover;
 			background-repeat: repeat;
 			background-attachment: fixed;
 		}
+
+		/* #Portfolio {
+			opacity: .5;
+		} */
 
 		@media screen and (max-width: 1280px) {
 
@@ -4034,10 +4039,6 @@
 				content: '\f0c9';
 				margin: 0 0 0 0.625rem;
 				float: right;
-			}
-
-			header.contact {
-				color: white;
 			}
 
 		@media screen and (max-width: 980px) {
