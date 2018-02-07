@@ -5,36 +5,38 @@
 	License: pixelarity.com/license
 -->
 <html>
-	<head>
-		<title>Kekoa Wilson Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<head>
+	<title>Kekoa Wilson Portfolio</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
 
-				<!-- Header -->
-					<header id="header" class="alt">
+<body>
 
-						<!-- Logo -->
-							<div class="logo">
-								<a href="index.html"><strong>Kekoa</strong> Wilson</a>
-							</div>
+	<!-- Wrapper -->
+	<div id="wrapper">
 
-						<!-- Nav -->
-							<nav id="nav">
-								<ul>
-									<li class="current"><a class="more scrolly" href="#banner">Home</a></li>
-									<li>
-										<a href="#Portfolio" class="icon fa-angle-down more scrolly">Portfolio</a>
-										<ul>
-											<li><a href="#option1" class="more scrolly">Addee Hunt Hair</a></li>
-											<li><a href="#option2" class="more scrolly">Oatmeal Gamification</a></li>
-											<li><a href="#option3" class="more scrolly">Option Three</a></li>
-											<li>
+		<!-- Header -->
+		<header id="header" class="alt">
+
+			<!-- Logo -->
+			<div class="logo">
+				<a href="#banner" class="more scrolly"><strong>Kekoa</strong> Wilson</a>
+			</div>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul>
+					<li class="current"><a class="more scrolly" href="#banner">Home</a></li>
+					<li><a href="#aboutMe" class="more scrolly">About Me</a></li>
+					<li><a href="#Portfolio" class="icon fa-angle-down more scrolly">Portfolio</a>
+						<ul>
+							<li><a href="#option1" class="more scrolly">Addee Hunt Hair</a></li>
+							<li><a href="#option2" class="more scrolly">Oatmeal Gamification</a></li>
+							<!-- <li>
 												<a href="#">Submenu</a>
 												<ul>
 													<li><a href="#">Option One</a></li>
@@ -42,220 +44,333 @@
 													<li><a href="#">Option Three</a></li>
 													<li><a href="#">Option Four</a></li>
 												</ul>
-											</li>
-										</ul>
-									</li>
-									<li><a href="generic.html">About Me</a></li>
-									<li><a href="elements.html">Elements</a></li>
-								</ul>
-							</nav>
+											</li> -->
+						</ul>
+					</li>
+					<li><a href="#skills" class="more scrolly">Skills</a></li>
+					<li><a href="#contactInfo" class="more scrolly">Contact Info</a></li>
+					<!-- <li><a href="elements.html">Elements</a></li> -->
+				</ul>
+			</nav>
 
-					</header>
+		</header>
 
-				<!-- Banner -->
-					<section id="banner">
-						<div class="content">
-							<h1 class='solid'>Kekoa Wilson</h1>
-							<p class='solid'>Web Developer</p>
-							<a href="#">About Me</a>
+		<!-- Banner -->
+		<section id="banner">
+			<div class="content">
+				<h1 class='solid'>Kekoa Wilson</h1>
+				<p class='solid'>Web Developer</p>
+			</div>
+		</section>
+
+		<!-- Section -->
+		<section class="main accent2" id='aboutMe'>
+			<header>
+				<h2>About Me</h2>
+				<p>Born in Utah and moved around the country, I have learned to adjust to situations quickly. I love to be active and play
+					sports. I have a passion for code because it gives me the ability to create and turn ideas into interactive objects.
+					I can't wait to contribute to your team and continue to learn and progress!</p>
+			</header>
+		</section>
+
+
+
+		<!-- Section -->
+		<section class="main alt" id='Portfolio'>
+			<header>
+				<h2>Portfolio</h2>
+				<p>Here is a sample of some of my work!</p>
+			</header>
+			<div class="inner">
+				<article class="post style2" id='option1'>
+					<div class="content">
+						<header>
+							<span class="category">Personally Developed Web App</span>
+							<h3>Addee Hunt Hair</h3>
+						</header>
+						<p>Freelanced to design and program a site for local business</p>
+						<h5>Technology Used:</h5>
+						<p>React | Redux | Node.js | Express.js | Massive.js | PostgreSQL | Auth.0 | MatUI | CSS | Google Maps API</p>
+						<ul>
+							<li>Used React to create components viewed through different browser routes, made responsive with CSS</li>
+							<li>Integrated axios calls to backend server to load and update data from PostgresSQL database</li>
+							<li>Integrated Redux to hold and manage state</li>
+							<li>Was runner-up for "Best Business Solution" for Personal Projects in my DevMountain cohort</li>
+							<li>Hit RESTful API's to retrieve and display data</li>
+						</ul>
+
+						<ul class="actions">
+							<li><a href="http://addeesalon.devmtn-projects.com/#/" target='_blank' class="button small fit">Live Site</a></li>
+							<li><a href='https://github.com/kekoawilson/a_h_hair' target='_blank' class="button small fit">GitHub</a></li>
+							<li><a href='#' target='_blank' class="button small fit">Video Walkthrough</a></li>
+						</ul>
+					</div>
+
+					<!-- First slideshow -->
+
+					<div class="slideshow">
+						<!-- <img src="images/pic05.jpg" alt="" /> -->
+
+						<!-- Slideshow container -->
+						<div class="slideshow-container">
+
+							<!-- Full-width images with number and caption text -->
+							<div class="mySlides fade">
+								<div class="numbertext1">1 / 4</div>
+								<img class='slideshowImg' src="./images/addee-pics/addeeDashboard.png" alt="">
+								<div class="text1">Landing Page</div>
+							</div>
+
+							<div class="mySlides fade">
+								<div class="numbertext1">2 / 4</div>
+								<img class='slideshowImg' src="./images/addee-pics/servicesOfferedSmallCopy.png" alt="">
+								<div class="text1">Services Offered on Landing Page</div>
+							</div>
+
+							<div class="mySlides fade">
+								<div class="numbertext1">3 / 4</div>
+								<img class='slideshowImg' src="./images/addee-pics/bridalsTopSmallCopy.png" alt="">
+								<div class="text1">Top of Bridals Page</div>
+							</div>
+
+							<div class="mySlides fade">
+								<div class="numbertext1">4 / 4</div>
+								<img class='slideshowImg' src="./images/addee-pics/bridalsSmallCopy.png" alt="">
+								<div class="text1" style="color:rgb(24, 24, 24)">Bottom of Bridals Page</div>
+							</div>
+
+							<!-- Next and previous buttons -->
+							<a class="prev1" onclick="plusSlides(-1)">&#10094;</a>
+							<a class="next1" onclick="plusSlides(1)">&#10095;</a>
 						</div>
-						<a href="#first" class="more scrolly">Learn More About Me</a>
-					</section>
+						<br>
 
-					<!-- Section -->
-					<section class="main skills" id='first'>
-							<header>
-								<h2>Skills</h2>
-							</header>
-							<div class="inner">
-								<ul class="faces">
-									<li>
-										<span class="image"><img class="react" src="images/react.png" alt="" /></span>
-										<h3>React</h3>
-									</li>
-									<li>
-										<span class="image"><img class="node" src="images/node.png" alt="" /></span>
-										<h3>Node.js</h3>
-										</li>
-									<li>
-										<span class="image"><img src="images/javascript.jpg" alt="" /></span>
-										<h3>JavaScript</h3>
-									</li>
-									<li>
-										<span class="image"><img src="images/express.png" alt="" /></span>
-										<h3>Express.js</h3>
-									</li>
-									<li>
-										<span class="image"><img src="images/auth0.png" alt="" /></span>
-										<h3>Auth0</h3>
-									</li>
-								</ul>
+						<!-- The dots/circles -->
+						<div style="text-align:center">
+							<span class="dot" onclick="currentSlide(1)"></span>
+							<span class="dot" onclick="currentSlide(2)"></span>
+							<span class="dot" onclick="currentSlide(3)"></span>
+							<span class="dot" onclick="currentSlide(4)"></span>
+						</div>
+					</div>
+				</article>
 
-								<ul class="faces">
-									<li>
-										<span class="image"><img src="images/html.png" alt="" /></span>
-										<h3>HTML5</h3>
-									</li>
-									<li>
-										<span class="image"><img src="images/css.png" alt="" /></span>
-										<h3>CSS3</h3>
-									</li>
-									<li>
-										<span class="image"><img src="images/angular.jpg" alt="" /></span>
-										<h3>Angular.js</h3>
-									</li>
-									
-									<li>
-										<span class="image"><img src="images/postgresql.png" alt="" /></span>
-										<h3>PostgreSQL</h3>
-									</li>
-									<li>
-										<span class="image"><img src="images/jest.png" alt="" /></span>
-										<h3>Jest</h3>
-									</li>
-								</ul>
-								<div class="skills">
-									<h3>And More!</h3>
+				<article class="post style2 alt" id='option2'>
+					<div class="content">
+						<header>
+							<span class="category">Group Developed Web App</span>
+							<h3>Oatmeal Gamification</h3>
+						</header>
+						<p>Created a gamification platform to integrate with CRM technology in order to create competition while having fun</p>
+						<h5>Technology Used:</h5>
+						<p>React | Redux | Node.js | Massive.js | PostgreSQL | Semantic UI | Socket.io | lodash</p>
+						<ul>
+							<li>Used React to create interactive components to render information coming from PostgreSQL database</li>
+							<li>Responsive because of CSS media Queries and Semantic UI elements for style and added functionality</li>
+							<li>Data heavy project that helped with understanding parsing and accessing data types</li>
+							<li>Integrated sockets to allow live-updating feature for data pushed from simple dummy crm</li>
+						</ul>
+						<ul class="actions">
+							<li>
+								<a href="http://oatmeal.devmtn-projects.com/#/" target='_blank' class="button small fit">Live Site</a>
+							</li>
+							<li>
+								<a href="https://github.com/JKSGAME/oatmeal" target='_blank' class="button small fit">GitHub</a>
+							</li>
+							<li>
+								<a href="#" target='_blank' class="button small fit">Video Walkthrough</a>
+							</li>
+						</ul>
+					</div>
+
+						<!-- Second slideshow -->
+
+						<div class="slideshow">
+								<!-- <img src="images/pic06.jpg" alt="" /> -->
+								
+								<!-- Slideshow container -->
+								<div class="slideshow-container">
+		
+									<!-- Full-width images with number and caption text -->
+									<div class="mySlides2 fade">
+										<div class="numbertext2">1 / 4</div>
+										<img class='slideshowImg2' src="./images/oatmeal-pics/oatmealDashSmallCopy.png" alt="">
+										<div class="text2">Landing Page</div>
+									</div>
+		
+									<div class="mySlides2 fade">
+										<div class="numbertext2">2 / 4</div>
+										<img class='slideshowImg2' src="./images/oatmeal-pics/showBadgesSmallCopy.png" alt="">
+										<div class="text2">Badges Earned/Available</div>
+									</div>
+		
+									<div class="mySlides2 fade">
+										<div class="numbertext2">3 / 4</div>
+										<img class='slideshowImg2' src="./images/oatmeal-pics/createBadgeSmallCopy.png" alt="">
+										<div class="text2" style="color: white">Form for Creating a Badge</div>
+									</div>
+		
+									<div class="mySlides2 fade">
+										<div class="numbertext2">4 / 4</div>
+										<img class='slideshowImg2' src="./images/oatmeal-pics/leaderboardSmallCopy.png" alt="">
+										<div class="text2">Leaderboard View for a Single Challenge</div>
+									</div>
+		
+									<!-- Next and previous buttons -->
+									<a class="prev2" onclick="plusSlides2(-1)">&#10094;</a>
+									<a class="next2" onclick="plusSlides2(1)">&#10095;</a>
+								</div>
+								<br>
+		
+								<!-- The dots/circles -->
+								<div style="text-align:center">
+									<span class="dot2" onclick="currentSlide2(1)"></span>
+									<span class="dot2" onclick="currentSlide2(2)"></span>
+									<span class="dot2" onclick="currentSlide2(3)"></span>
+									<span class="dot2" onclick="currentSlide2(4)"></span>
 								</div>
 							</div>
-						</section>
-
-				<!-- Section -->
-					<section class="main alt" id='Portfolio'>
-						<header>
-							<h2>Portfolio</h2>
-							<p>Here is a sample of some of my work!</p>
-						</header>
-						<div class="inner">
-							<article class="post style2" id='option1'>
-								<div class="content">
-									<header>
-										<span class="category">Portfolio</span>
-										<h3>Nisl euismod</h3>
-									</header>
-									<p>Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec sed lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam magna tempus.</p>
-									<ul class="actions">
-										<li><a href="#" class="button next">Learn More</a></li>
-									</ul>
-								</div>
-								<div class="image" data-position="center"><img src="images/pic05.jpg" alt="" /></div>
-							</article>
-							<article class="post style2 alt" id='option2'>
-								<div class="content">
-									<header>
-										<span class="category">Magna sed</span>
-										<h3>Integer nulla</h3>
-									</header>
-									<p>Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec sed lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam magna tempus.</p>
-									<ul class="actions">
-										<li><a href="#" class="button next">Learn More</a></li>
-									</ul>
-								</div>
-								<div class="image" data-position="center"><img src="images/pic06.jpg" alt="" /></div>
-							</article>
-						</div>
-					</section>
-
-				
-
-				<!-- Section -->
-					<section class="main accent2">
-						<header>
-							<h2>Egestas phasellus</h2>
-							<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam facilisis ante sed etiam magna interdum congue. Sed consequat amet dolor magna consequat. Lorem ipsum dolor amet nullam sed etiam veroeros.</p>
-						</header>
-						<div class="inner">
-							<article class="post alt">
-								<div class="content">
-									<header>
-										<span class="category">Lorem ipsum</span>
-										<h3>Finibus et magna</h3>
-									</header>
-									<p>Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec sed lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam magna tempus. Lorem ipsum sit tempus amet feugiat.</p>
-									<ul class="actions">
-										<li><a href="#" class="button next">Learn More</a></li>
-									</ul>
-								</div>
-								<div class="image" data-position="center"><img src="images/pic07.jpg" alt="" /></div>
-							</article>
-							<article class="post">
-								<div class="content">
-									<header>
-										<span class="category">Sed etiam</span>
-										<h3>Nam adipiscing</h3>
-									</header>
-									<p>Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec sed lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam magna tempus. Lorem ipsum sit tempus amet feugiat.</p>
-									<ul class="actions">
-										<li><a href="#" class="button next">Learn More</a></li>
-									</ul>
-								</div>
-								<div class="image" data-position="center"><img src="images/pic08.jpg" alt="" /></div>
-							</article>
-							<article class="post alt">
-								<div class="content">
-									<header>
-										<span class="category">Sapien erat</span>
-										<h3>Amet sed nullam</h3>
-									</header>
-									<p>Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec sed lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam magna tempus. Lorem ipsum sit tempus amet feugiat.</p>
-									<ul class="actions">
-										<li><a href="#" class="button next">Learn More</a></li>
-									</ul>
-								</div>
-								<div class="image" data-position="center"><img src="images/pic09.jpg" alt="" /></div>
-							</article>
-						</div>
-					</section>
-
-				<!-- Section -->
-					<section class="main alt special">
-						<header>
-							<h2>Get in touch</h2>
-							<p>I'd love to get in touch with you to discuss future opportunities! Call, text, or email me at a time convenient for you.</p>
-							<p>Phone: (801) - 750 - 9803 | Email: kekoawilson20@gmail.com</p>
-						</header>
-						<div class="inner narrow">
-							<form action="#" method="post">
-								<div class="field half">
-									<input name="name" id="name" placeholder="Name" type="text" />
-								</div>
-								<div class="field half">
-									<input name="email" id="email" placeholder="Email" type="email" />
-								</div>
-								<div class="field">
-									<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
-								</div>
-								<ul class="actions">
-									<li><button class="button next" type="submit">Send Message</button></li>
-								</ul>
-							</form>
-						</div>
-					</section>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="icons">
-							<!-- <li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li> -->
-							<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-							<li><a href="#" class="icon alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							<!-- <li><a href="#" class="icon alt fa-phone"><span class="label">Phone</span></a></li> -->
-							<!-- <li><a href="#" class="icon alt fa-envelope-o"><span class="label">Email</span></a></li> -->
-						</ul>
-						<p class="copyright">&copy; Untitled. All rights reserved.</p>
-					</footer>
-
+				</article>
 			</div>
+		</section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
 
-	</body>
+
+		<!-- Section -->
+		<section class="main skills" id='skills'>
+			<header>
+				<h2>Skills</h2>
+			</header>
+			<div class="inner">
+				<ul class="faces">
+					<li>
+						<span class="image">
+							<img class="react" src="images/icons/react.png" alt="" />
+						</span>
+						<h3>React</h3>
+					</li>
+					<li>
+						<span class="image">
+							<img class="node" src="images/icons/node.png" alt="" />
+						</span>
+						<h3>Node.js</h3>
+					</li>
+					<li>
+						<span class="image">
+							<img src="images/icons/javascript.jpg" alt="" />
+						</span>
+						<h3>JavaScript</h3>
+					</li>
+					<li>
+						<span class="image">
+							<img src="images/icons/express.png" alt="" />
+						</span>
+						<h3>Express.js</h3>
+					</li>
+					<li>
+						<span class="image">
+							<img src="images/icons/auth0.png" alt="" />
+						</span>
+						<h3>Auth0</h3>
+					</li>
+				</ul>
+
+				<ul class="faces">
+					<li>
+						<span class="image">
+							<img src="images/icons/html.png" alt="" />
+						</span>
+						<h3>HTML5</h3>
+					</li>
+					<li>
+						<span class="image">
+							<img src="images/icons/css.png" alt="" />
+						</span>
+						<h3>CSS3</h3>
+					</li>
+					<li>
+						<span class="image">
+							<img src="images/icons/angular.jpg" alt="" />
+						</span>
+						<h3>Angular.js</h3>
+					</li>
+
+					<li>
+						<span class="image">
+							<img src="images/icons/postgresql.png" alt="" />
+						</span>
+						<h3>PostgreSQL</h3>
+					</li>
+					<li>
+						<span class="image">
+							<img src="images/icons/jest.png" alt="" />
+						</span>
+						<h3>Jest</h3>
+					</li>
+				</ul>
+				<div class="skills">
+					<h3>And More!</h3>
+				</div>
+			</div>
+		</section>
+
+		<!-- Section -->
+		<section class="main alt special" id='contactInfo'>
+			<header class="contact">
+				<h2>Get in touch</h2>
+				<p>I'd love to get in touch with you to discuss future opportunities! Call, text, message me on social media, or email me at a time convenient for you.</p>
+				<p>Phone: (801) - 750 - 9803 | Email: kekoawilson20@gmail.com</p>
+			</header>
+			<div class="inner narrow">
+
+				<form action="https://formspree.io/kekoawilson20@gmail.com" method="POST">
+					<div class="field half">
+						<input name="name" id="name" placeholder="Name" type="text" />
+					</div>
+					<div class="field half">
+						<input name="email" id="email" placeholder="Email" type="email" />
+					</div>
+					<div class="field">
+						<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+					</div>
+					<ul class="actions">
+						<li>
+							<button class="button next" type="submit">Send Message</button>
+						</li>
+						<li></li>
+						<li></li>
+					</ul>
+				</form>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<ul class="icons">
+				<!-- <li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li> -->
+				<li><a href="https://www.linkedin.com/in/kekoa-wilson/" class="icon alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+				<li><a href="https://github.com/kekoawilson" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+				<li><a href="https://www.instagram.com/special__k20/" class="icon alt fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+				<li><a href="https://www.facebook.com/koa.wilson" class="icon alt fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+				<!-- <li><a href="#" class="icon alt fa-phone"><span class="label">Phone</span></a></li> -->
+				<!-- <li><a href="#" class="icon alt fa-envelope-o"><span class="label">Email</span></a></li> -->
+			</ul>
+			<p class="copyright">&copy; Kekoa Wilson Development. All rights reserved.</p>
+		</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="function.js"></script>
+	<script src="https://use.fontawesome.com/0e8aad8b0b.js"></script>
+
+</body>
+
 </html>

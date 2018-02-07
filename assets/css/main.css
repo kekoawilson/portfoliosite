@@ -2778,14 +2778,6 @@
 				padding: 3rem 0 3rem 0;
 			}
 
-			/* .node {
-				height: 104px;
-			} */
-
-			/* .react {
-				height: 104px;
-			} */
-
 				ul.faces li:first-child {
 					margin-left: 0;
 				}
@@ -3208,7 +3200,7 @@
 			margin-left: auto;
 			margin-right: auto;
 			width: 100%;
-			max-width: 58rem;
+			max-width: 80rem;
 		}
 
 			#wrapper > .main > .inner.narrow {
@@ -3237,6 +3229,7 @@
 
 		#wrapper > .main.special {
 			text-align: center;
+			font-weight: bold;
 		}
 
 		#wrapper > .main.accent1 {
@@ -3654,11 +3647,225 @@
 			}
 
 		#wrapper > .main.alt {
-			background-image: url("../../images/alejandro-escamilla-6.jpg");
+			background-image: url("../../images/computers/alejandro-escamilla-6-edited.png");
 			background-size: cover;
 			background-repeat: repeat;
 			background-attachment: fixed;
 		}
+
+		/* Custom stuff */
+
+/*----------------------------First Slideshow-------------------------------*/
+
+/* Slideshow Wrapper */
+.slideshow {
+	display: inline-block;
+	position: relative;
+	border-radius: 4px;
+	border: 0;
+}
+
+/* Slideshow container */
+.slideshow-container {
+	max-width: 1000px;
+	height: 100%;
+	width: auto;
+	position: relative;
+	margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+	  display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev1, .next1 {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: rgb(22, 22, 22);
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	border: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next1 {
+	right: 20px;
+	border-radius: 3px 0 0 3px;
+	border: none;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev1:hover, .next1:hover {
+	background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text1 {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext1 {
+	color: #1d1d1d;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+	cursor:pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+  }
+  
+  .active1, .dot:hover {
+	background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+  }
+  
+  @keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+  }
+
+  .slideshowImg {
+	margin-right: 20px;
+  }
+
+  /*-----------------Second Slideshow---------------------------------*/
+  
+  /* Hide the images by default */
+  .mySlides2 {
+	  display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev2, .next2 {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	border: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next2 {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+	border: none;
+  }
+
+  .prev2 {
+	left: 20px;
+	border-radius: 3px 0 0 3px;
+	border: none;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev2:hover, .next2:hover {
+	background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text2 {
+	color:rgb(24, 24, 24);
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext2 {
+	color: #1d1d1d;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot2 {
+	cursor:pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+  }
+  
+  .active2, .dot2:hover {
+	background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+  }
+  
+  @keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+  }
+
+  .slideshowImg2 {
+	margin-left: 20px;
+  }
+
+  /*-----------------------------------------------------*/
 
 		@media screen and (max-width: 1280px) {
 
@@ -4106,7 +4313,7 @@
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("../../images/wesley-riddle-500939.jpg");
+		background-image: url("../../images/landscape/wesley-riddle-500939.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: center;
